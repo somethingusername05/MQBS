@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Vincent Ngo</title>
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="index.html">Vincent <span>Ngo</span></a>
+  <ul>
+    <li><a class="link" href="index.html">Home</a></li>
+    <li><a class="link" href="about.html">About Me</a></li>
+    <li><a class="link" href="projects.html" aria-current="page">Projects</a></li>
+    <li><a class="link" href="experience.html">Experience</a></li>
+    <li><a class="link" href="skills.html">Skills</a></li>
+    <li><a class="link" href="contact.html">Contact</a></li>
+  </ul>
+</div></nav>
+
+<main class="wrap">
+  <div class="page-head">
+    <div class="pill"><span class="dot">📊</span><b>Projects</b></div>
+    <h1>Real clients, real decisions</h1>
+    <p class="lead">This semester my six-person, six-discipline team (Team 2B) worked for a real client in MQBS3010. These two projects show how I work: I build the numbers everyone relies on, then I test them.</p>
+    <a class="btn" href="#hillview">Hillview Estate</a>
+    <a class="btn alt" href="#agility">Agility Challenge</a>
+  </div>
+
+  <!-- PROJECT 1 -->
+  <section id="hillview">
+    <div class="grid g2" style="align-items:center">
+      <figure><img src="img/hillview.jpg" alt="Hillview Estate"></figure>
+      <div>
+        <div class="label" style="font-weight:600;color:var(--muted)">CLIENT PROJECT · MQBS3010 CAPSTONE</div>
+        <h2>Hillview Circular Heritage Hub</h2>
+        <p>A business plan to turn Hillview Estate into a heritage, education and circular-economy hub, funded by a $1 million endowment plus grants.</p>
+        <a class="btn" href="https://hillviewheritage.netlify.app/" target="_blank" rel="noopener">View the project site</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="grid g3">
+      <div class="card"><div class="label">The task</div><h3>Can it pay for itself?</h3>The client needed to know whether the hub could earn a return on the endowment while protecting the heritage site.</div>
+      <div class="card orange"><div class="label">My role</div><h3>Business Analytics lead</h3>I built the shared dataset every chapter relied on: the visitor forecast, revenue forecast, return test and sensitivity testing.</div>
+      <div class="card blue"><div class="label">How I worked</div><h3>Six views, one model</h3>Marketing gave me prices, Management gave staffing and Accounting gave costs. My job was keeping everyone's numbers consistent.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How I built it</h2>
+    <p>Before building anything, I mapped how the model would work: one Master Assumptions sheet that every discipline feeds, with checkpoints where Finance and Accounting review the forecasts. I shared these diagrams with the team on 4 September.</p>
+    <figure><img class="zoom" src="img/process-diagrams.jpg" alt="Diagrams of the dataset structure and team workflow, posted to the team chat"><figcaption>My dataset map, knowledge graph and team workflow, shared with the team</figcaption></figure>
+    <div class="grid g2" style="margin-top:22px">
+      <figure><img class="zoom" src="img/excel-economic.jpg" alt="Economic Case sheet in the Excel model"><figcaption>My Economic_Case sheet: visitor forecast, revenue forecast, NPV and IRR</figcaption></figure>
+      <figure><img class="zoom" src="img/excel-capex.jpg" alt="Capital expenditure sheet in the Excel model"><figcaption>One shared model: each teammate owned a section, like Accounting's capital spending here, and my forecasts feed into it</figcaption></figure>
+    </div>
+    <div class="card" style="margin-top:22px">
+      <div class="label">What the team said</div>
+      <figure><img class="zoom" src="img/chat-feedback.jpg" alt="Teammate message praising the Excel model"></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I found</h2>
+    <div class="grid g3">
+      <div class="card yellow"><div class="stat">10.8%</div>yearly return in the planned case, against a 3% target</div>
+      <div class="card"><div class="stat">$130,184</div>net present value in the planned case</div>
+      <div class="card orange"><div class="stat">2.85%</div>fewer visitors than planned is enough to miss the target</div>
+    </div>
+    <p style="margin-top:22px">The headline return looked healthy, but the stress test told a different story. The model only makes a profit in Year 1, because of a $350,000 grant, and in Year 5. Small changes in visitors or prices swing the return from strongly positive to negative. I presented this honestly, because a client should see the worst case as well as the best.</p>
+    <div class="grid g2">
+      <figure><img class="zoom" src="img/hillview-years.jpg" alt="Year-by-year site use and profit or loss"><figcaption>Year by year: how full the site is, and profit or loss (my model)</figcaption></figure>
+      <figure><img class="zoom" src="img/hillview-sensitivity.jpg" alt="Sensitivity of the return to each input"><figcaption>Stress test: how the return moves when each input changes</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="card green">
+      <div class="label">What I learned</div>
+      <h2>Don't let profit swallow the purpose.</h2>
+      <p>The fastest way to make Hillview profitable was to fill the site with more visitors than the heritage could handle. Two teammates and I agreed on a cap to protect it. Before this project I treated a higher return as the goal. I now see this trap has a name, <b>mission drift</b>, and I know to watch for it in any project with a social purpose.</p>
+    </div>
+  </section>
+
+  <section>
+    <h3>I checked our plan against real sites</h3>
+    <p>Before trusting our forecast, I researched how similar heritage and farm projects actually perform. Most rely on grants or donors to survive, which supported my view that impact, not profit, is the fair test for Hillview.</p>
+    <figure><img class="zoom" src="img/comparables.jpg" alt="Comparable heritage and farm sites"><figcaption>Comparable sites and their real financial results</figcaption></figure>
+  </section>
+
+  <!-- PROJECT 2 -->
+  <section id="agility" style="padding-top:48px">
+    <div class="label" style="font-weight:600;color:var(--muted)">TEAM PROJECT · MQBS3010 AGILITY CHALLENGE</div>
+    <h2>Agility Challenge: a consultation deck for The King's Foundation</h2>
+    <p class="lead">A surprise brief with a short deadline: turn our Hillview plan into a branded slide deck for the client. Our team had no historical data and a blank page.</p>
+  </section>
+
+  <section>
+    <div class="grid g2">
+      <div class="card">
+        <div class="label">What I did</div>
+        <ul class="tidy">
+          <li>Built the team's master dataset from comparable heritage sites, with forecasts and sensitivity testing.</li>
+          <li>Designed Slides 8 and 9: the visitor and revenue projection, and the feasibility analysis.</li>
+          <li>Modelled nine revenue streams separately across peak, shoulder and quiet months, using Volume × Price × Attach rate.</li>
+          <li>Showed site use growing from 4.2% in Year 1 to 44% by Year 5, staying below the heritage limit.</li>
+        </ul>
+      </div>
+      <div class="card blue">
+        <div class="label">What changed</div>
+        <h3>The numbers unlocked the team.</h3>
+        <p>We started slowly, with overlapping slides and too much text. Once I shared one validated dataset, everyone worked from the same assumptions and the deck came together.</p>
+        <p style="margin:0">I kept my slides to a few words and let the charts do the talking, because a consultation deck should be quicker to read than the report behind it.</p>
+      </div>
+    </div>
+    <div class="grid g2" style="margin-top:22px">
+      <figure><img class="zoom" src="img/slide8.jpg" alt="Slide 8: Our Visitor and Revenue Projection"></figure>
+      <figure><img class="zoom" src="img/slide9.jpg" alt="Slide 9: Feasibility, Seasonality"></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I'd do differently</h2>
+    <div class="guest"><p>The <a href="https://www.linkedin.com/in/zaki-ashraf-b2175239" target="_blank" rel="noopener">Clinical Research Nurse at Woolcock Institute</a> said in Week 6 that breaking a problem into smaller parts makes it approachable. Our team spent the first half of the challenge without a clear process.</p></div>
+    <div class="grid g3">
+      <div class="card yellow"><h3>1. Plan first</h3>Use the first meeting to agree a shared outline, a sample slide as a visual standard, and checkpoints.</div>
+      <div class="card"><h3>2. Write for the reader</h3>My wording was too technical for the client. I'd set the audience before writing a word.</div>
+      <div class="card orange"><h3>3. Act on feedback</h3>My tutor told me to name teamwork frameworks such as Tuckman's stages. I applied that in my capstone chapter.</div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Vincent Ngo</span><a href="experience.html">Next: Experience →</a></div></footer>
+<script src="zoom.js?v=5"></script>
+</body>
+</html>
